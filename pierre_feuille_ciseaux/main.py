@@ -3,12 +3,11 @@ import random
 score_joueur = 0
 compteur_score = 0
 
-nbrTour_joueur = int(input('Combien de manches ? '))
+nbrTour_joueur = int(input('Combien  de manches ? '))
 nbrTour = 0
 while (nbrTour < nbrTour_joueur):
-
      
-	choix_du_joueur = input('Choisis entre pierre feuille ou ciseaux : ')
+	choix_du_joueur = input('Choisis  entre pierre feuille ou ciseaux : ')
 	if(choix_du_joueur == 'pierre' or choix_du_joueur == 'feuille' or choix_du_joueur == 'ciseaux'):
 
 		print('--------------------------')
